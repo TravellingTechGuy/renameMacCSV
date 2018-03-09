@@ -9,7 +9,7 @@ Requirements:
 
 - create a .csv file with first column serialnumbers and second column the desired asset tags.
 
-- create a .pkg which puts the assettag.csv file in /tmp/assettags.csv and upload it to JamfPro
+- create a .pkg which puts the assettags.csv file in /tmp/assettags.csv and upload it to JamfPro
 OR
 	use CURL to download any .csv from a public link
 
