@@ -36,7 +36,7 @@ When using curl, the script below will download and rename the file to /tmp/asse
 Type will be set via $7 paremeter in the Jamf Pro Policy. Type "curl" or "package" (without the quotes).
 
 $8 : Define the public link to the .csv file. Leave blank when using .pkg
-Link will be set via th $8 parameter in the Jamf Pro policy. Add the full "https://URL" (without the quotes).
+Link will be set via th $8 parameter in the Jamf Pro policy. Add the full URL (public link).
 
 Hardcoded : Path to local csv file, via package in same policy: pkg putting assettags.csv in /tmp/ (csvPath="/tmp/assettags.csv")
 
