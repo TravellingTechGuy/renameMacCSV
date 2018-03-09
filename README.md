@@ -35,7 +35,7 @@ Set it to "serialnumber" or "assettag" (without the quotes).
 
 $7 : Define if you are adding the .pkg with the /tmp/assettags.csv file or using curl to download any .csv file.
 When using curl, the script below will download and rename the file to /tmp/assettags.csv
-Type will be set via $7 paremeter in the Jamf Pro Policy. Type "curl" or "package" (without the quotes).
+Type will be set via $7 parameter in the Jamf Pro Policy. Type "curl" or "package" (without the quotes).
 
 $8 : Define the public link to the .csv file. Leave blank when using .pkg
 Link will be set via th $8 parameter in the Jamf Pro policy. Add the full URL (public link).
