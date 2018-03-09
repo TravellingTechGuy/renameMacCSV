@@ -1,4 +1,4 @@
-# renameCSV
+# renameMacCSV
 Purpose: Jamf Pro @enrollment script to rename the mac prior to binding to AD (optional)
 
 Script uses the $4 to $9 parameters in the Jamf Pro script policy payload
