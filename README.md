@@ -13,11 +13,13 @@ Requirements:
 OR
 	use CURL to download any .csv from a public link
 
-- create a policy with trigger @enrollment and add the renameMacCSV.sh in script payload with priority "AFTER" (important when using .pkg)
+- create a policy with trigger @enrollment and add the renameMacCSV.sh in script payload with priority "AFTER" (important when using .pkg). If using .pkg, add the package to the policy.
 
 - set $4 to $9 parameters in the Jamf Pro script policy payload (see below)
 
 - Optional: create a policy with the directory binding payload and custom trigger 'bindToAD'
+
+- scope as required (probably All Computers)
 
 Parameters:
 
